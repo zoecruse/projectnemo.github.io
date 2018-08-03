@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="fishy-styles.css">
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+      <script src="javascript.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+
+    </style>
+    <style>
+    html {
+      box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+
+    .column {
+      float: left;
+      width: 25%;
+      margin-bottom: 16px;
+      padding: 0 20px;
+    }
+    .columnright {
+      float: right;
+      width: 30%;
+      margin-bottom: 16px;
+      padding: 0 20px;
+    }
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+      padding: 0 16px;
+    }
+
+    .container::after, .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .title {
+      color: grey;
+    }
+
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+    .rotate {
+      -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari 3-8 */
+    transform: rotate(90deg);
+    }
+    </style>
+</head>
+<body background="#d9d9d9">
+
+
+    <div class="navbar">
+      <a href="proj_nemo.html">Underwater Waste Race!</a>
+      <a href="information.html">Project Nemo</a>
+      <div class="dropdown">
+        <button class="dropbtn">About Us!
+      <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="biopage2.html">Biographies</a>
+          <a href="contactinfo2.html">Contact Information!</a>
+        </div>
+      </div>
+    </div>
+
+<div align="center">
+<h2>Our Mission</h2>
+<p> "We strive to instill awareness, curiosity, and accountability within our community to protect ocean life."
+</div>
+
+<br>
+
+<div align="center" class="row">
+  <div class="column">
+    <div class="card">
+      <img src="IMG_7739.JPG" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Zoe Cruse</h2>
+        <p class="title">Game and Web Developer</p>
+        <p>Zoe is a rising Senior in high school. She loves volunteering and encouraging younger people to get active in their community.</p>
+        <p>zoecruse@gmail.com</p>
+        <p><button onclick="window.location.href = 'mailto:zoecruse@gmail.com';"class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <img src="IMG_7754.JPG" alt="Mike" style="width:100%" >
+      <div class="container">
+        <h2>Sarah Chang</h2>
+        <p class="title">Game Developer</p>
+        <p>Sarah is a rising junior at Mills High School. She is an avid reader, grant writer, and aspires to make a positive impact to society. </p>
+        <p>sarahchang2020@gmail.com</p>
+        <p><button onclick="window.location.href = 'mailto:sarahchang2020@gmail.com';"class="button">Contact</button> </p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="IMG_7737 (1).JPG" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Catie Donohue</h2>
+        <p class="title">Web Developer</p>
+        <p>Catie is currently an incoming Junior at Sequoia High School. She loves animals, music, dancing, and her dog.</p>
+        <p>catdonohue13@gmail.com</p>
+        <p><button onclick="window.location.href = 'mailto:catdonohue13@gmail.com';"class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+<div class="column">
+  <div class="card">
+    <img src="IMG_7755.JPG" alt="Mike" style="width:100%">
+    <div class="container">
+      <h2>Andrea</h2>
+      <p class="title">Information Expert</p>
+      <p>Andrea is a rising senior at Santa Teresa High School. She enjoys exploring around town, volunteering, her pup, and baking. </p>
+      <p>andrea.espinosza@gmail.com</p>
+      <p><button class="button">Contact</button></p>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
